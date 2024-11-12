@@ -1,5 +1,5 @@
 {
-  "name": "@influxdata/giraffe",
+  "name": "@altopproducts/giraffe",
   "version": "2.38.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
