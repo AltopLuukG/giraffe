@@ -1,6 +1,6 @@
 {
   "name": "@altopproducts/giraffe",
-  "version": "2.38.2",
+  "version": "2.38.3",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "license": "MIT",
