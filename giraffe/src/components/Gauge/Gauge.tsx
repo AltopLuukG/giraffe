@@ -42,8 +42,8 @@ const resetCanvas = (
   const dpRatio = window.devicePixelRatio || 1
 
   // Set up canvas to draw on HiDPI / Retina screens correctly
-  canvas.width = width * dpRatio
-  canvas.height = height * dpRatio
+  canvas.width = width * dpRatio + 100
+  canvas.height = height * dpRatio + 100
   canvas.style.width = `${width}px`
   canvas.style.height = `${height}px`
   ctx.scale(dpRatio, dpRatio)
@@ -431,8 +431,8 @@ export const Gauge: FunctionComponent<Props> = (props: Props) => {
   return (
     <canvas
       className="giraffe-gauge"
-      width={width - 20}
-      height={height - 20}
+      width={width}
+      height={height}
       ref={canvasRef}
     />
   )

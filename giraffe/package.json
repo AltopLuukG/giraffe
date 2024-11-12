@@ -113,6 +113,7 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
+    "@altopproducts/dashboard-components": "^0.1.10",
     "merge-images": "^2.0.0"
   }
 }
