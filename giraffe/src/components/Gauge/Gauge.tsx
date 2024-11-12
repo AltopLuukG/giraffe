@@ -431,8 +431,8 @@ export const Gauge: FunctionComponent<Props> = (props: Props) => {
   return (
     <canvas
       className="giraffe-gauge"
-      width={width}
-      height={height}
+      width={width - 20}
+      height={height - 20}
       ref={canvasRef}
     />
   )
